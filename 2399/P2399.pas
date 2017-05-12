@@ -23,4 +23,3 @@ begin
 
   end
   else begin
-    while s[i]<>'(' do inc(i);
