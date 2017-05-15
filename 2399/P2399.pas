@@ -19,7 +19,8 @@ begin
   inc(i,2);
   l:=pos('(',s);
   if l=0 then begin
-
+    l:=pos('.',s);
+    
   end
   else begin
     i:=l+1;
