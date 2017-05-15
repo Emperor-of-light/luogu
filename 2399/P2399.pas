@@ -1,8 +1,9 @@
 program P2399;
 var
-  s,s1:string;
-  i,j,k,a,b,kl,gl,hi,hg,lg,n,l,r:longint;  //hl:boolean;
-function gcd(aa,bb:longint):longint;
+  s,s1:ansistring;
+  i,j,k,a:longint;  //hl:boolean;
+  
+function gcd(aa,bb:longint):longint;  //count gcd
 begin
     if bb<>0 then
     gcd:=gcd(bb,aa mod bb)
